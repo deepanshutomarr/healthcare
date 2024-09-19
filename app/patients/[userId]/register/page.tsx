@@ -6,6 +6,11 @@ import { getPatient, getUser } from "@/lib/actions/patient.actions";
 
 const Register = async ({ params: { userId } }: SearchParamProps) => {
   const user = await getUser(userId);
+  if (!user) {
+    console.error("User not found");
+    return <p>User not found</p>; // Handle the error gracefully
+  }
+
   const patient = await getPatient(userId);
 
   if (patient) redirect(`/patients/${userId}/new-appointment`);
