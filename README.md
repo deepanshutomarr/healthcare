@@ -37,8 +37,6 @@ A healthcare patient management application that allows patients to easily regis
 👉 **File Upload Using Appwrite Storage**: Users can upload and store files securely within the app using Appwrite storage services.
 
 
-and many more, including code architecture and reusability
-
 ## <a name="quick-start">🤸 Quick Start</a>
 
 Follow these steps to set up the project locally on your machine.
