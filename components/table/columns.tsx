@@ -102,3 +102,4 @@ export const columns: ColumnDef<Appointment>[] = [
     },
   },
 ];
+
